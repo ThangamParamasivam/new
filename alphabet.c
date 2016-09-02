@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-char n;
+char d;
 printf("Enter the character");
-scanf("%c",&n);
-int a=n;
+scanf("%c",&d);
+int a=d;
 if((a>=65&&a<=91)||(a>=91&&a<=127))
 {
 printf("Alphabet");
